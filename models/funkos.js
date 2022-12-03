@@ -43,7 +43,6 @@ const productSchema = new Schema ({
     },
     productSubType: {
         type: String,
-        required: true
     },
     category: {
         type: String,
