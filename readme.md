@@ -1,8 +1,3 @@
-Para conectar a la DB
-
-CONNECTMONGO = mongodb+srv://john:lennon@cluster0.0hxwpvr.mongodb.net/test
-PORT = 8080
-
 
 El CRUD está pensado para productos Funkos, en sintonía con el trabajo final de Frontend.
 
