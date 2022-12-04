@@ -22,7 +22,6 @@ router.post('/createproduct', [
     check("description").not().isEmpty().withMessage("Description field is required"),
     check("price").not().isEmpty().withMessage("Price field is required"),
     check("productType").not().isEmpty().withMessage("Product Type field is required"),
-/*     check("productSubType").not().isEmpty().withMessage("Product Sub Type field is required"), */
     check("category").not().isEmpty().withMessage("Category field is required"),
 ] , createProduct)
 
@@ -36,7 +35,6 @@ router.put('/editproduct/:id', idValidator, [
     check("description").not().isEmpty().withMessage("Description field is required"),
     check("price").not().isEmpty().withMessage("Price field is required"),
     check("productType").not().isEmpty().withMessage("Product Type field is required"),
-/*     check("productSubType").not().isEmpty().withMessage("Product Sub Type field is required"), */
     check("category").not().isEmpty().withMessage("Category field is required"),
 ], editProduct)
 
